@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="./css/base.css">
         <link rel="stylesheet" href="./css/header.css">
         <link rel="stylesheet" href="./css/services.css">
+        <link rel="stylesheet" href="./css/company.css">
     </head>
   <body>
     <header class="header">
@@ -55,44 +56,239 @@
         </div>
     </header>
 
-    <section class='services'>
-        <p class='title'>Наши услуги</p>
+    <section class="container services">
+        <h2 class="title">Наши услуги</h2>
 
-        <div class='service-cards'>
-            <div class='card card-1'>
-                <div class='card-header'>
-                    <img src='./images/services/icon.png' alt='icon-1'>
-                    <p>Установка пластиковых окон</p>
-                </div>
-                <p>Устанавливаем пластиковые окна Rehau от проверенного производителя с гарантией качества</p>
-            </div>
-            <div class='card card-2'>
-                <div class='card-header'>
-                    <img src='./images/services/icon.png' alt='icon-1'>
-                    <p>Остекление балконов и лоджий
-                        </p>
-                </div>
-                <p>Занимаемся остеклением и отделкой балконов и лоджий. Теплое и холодное остекление, 
-                    изготовление выносов и крыш. Беремся за сложные объекты</p>
-            </div>
-            <div class='card card-3'>
-                <div class='card-header'>
-                    <img src='./images/services/icon.png' alt='icon-1'>
-                    <p>Остекление коттеджей и дач</p>
-                </div>
-                <p>Остекление и отделка под ключ: от коттеджей и дач до террас и беседок. Выделяем 
-                    личного технолога под каждый объект</p>
-            </div>
-            <div class='card card-4'>
-                <div class='card-header'>
-                    <img src='./images/services/icon.png' alt='icon-1'>
-                    <p>Остекление корпоративных объектов </p>
-                </div>
-                <p>Реализуем сложные проекты по остеклению торговых центров, ресторанов,
-                     производственных помещений и офисов</p>
+        <div class="blocks">
+             <div class="services-item_block">
+                <img src="./images/services/ustanovka.svg" alt="установка" class="block-img">
+                <div class="tint"></div>
+                <img src="./images/services/icon.png" alt="иконка" class="block-icon">
+                <h3 class="block_title">Установка пластиковых окон</h3>
+                <p class="text-block">
+                    Устанавливаем пластиковые окна Rehau от проверенного производителя с гарантией качества
+                </p>
+             </div>
+
+             <div class="services-item_block">
+                <img src="./images/services/ustanovka.svg" alt="установка2" class="block-img">
+                <div class="tint"></div>
+                <img src="./images/services/icon.png" alt="иконка" class="block-icon">
+                <h3 class="block_title">Остекление балконов и лоджий</h3>
+                <p class="text-block">
+                    Занимаемся остеклением и отделкой балконов и лоджий. Теплое и холодное остекление, изготовление выносов и крыш. Беремся за сложные объекты
+                </p>
+             </div>
+
+             <div class="services-item_block">
+                <img src="./images/services/ostKot.svg" alt="котедж" class="block-img">
+                <div class="tint"></div>
+                <img src="./images/services/icon.png" alt="иконка" class="block-icon">
+                <h3 class="block_title">Остекление коттеджей и дач</h3>
+                <p class="text-block">
+                    Остекление и отделка под ключ:от коттеджей и дач до террас и беседок. Выделяем личного технолога под каждый объект
+                </p>
+             </div>
+
+             <div class="services-item_block">
+                <img src="./images/services/ostKor.svg" alt="корпорат" class="block-img">
+                <div class="tint"></div>
+                <img src="./images/services/icon.png" alt="иконка" class="block-icon">
+                <h3 class="block_title">Остекление корпоративных объектов </h3>
+                <p class="text-block">
+                    Реализуем сложные проекты по oстеклению торговых центров, ресторанов, производственных помещений и офисов
+                </p>
+            
             </div>
         </div>
+
     </section>
 
+    <br>
+
+    <section class="company">
+        <h2 class="title"> О компании </h2>
+        <br>
+        <ul class="company-btn"> 
+            <li>
+                <a href="" class="link">Описание </a>
+            </li>
+           
+             <li>
+                <a href="" class="link">Как мы работаем</a>
+            </li>
+            
+            <li>
+                <a href="" class="link">Отзывы</a>
+            </li>
+
+            <li>
+                <a href="" class="link">Сертификаты</a>
+            </li>
+        </ul>
+        <br>
+
+        <div class='about-company'>
+            <div class='card'>
+                <div class='description'>
+                    <img class='logo' src='./images/company/1 1.svg' alt='logo'>
+                    <p>Мы помогаем клиентам подбирать решения, учитывая
+                        пожежелания к характеристикам окна и его стоимости. Окно - это объект, которым Вы будете
+                        пользоваться много лет, поэтому для нас очень важно, чтобы Вы сделали правильный выбор.</p>
+                </div>
+                <img class='poster' src='./images/company/Rectangle 36.svg' alt='about-1'>
+            </div>
+        </div>
+        <!--
+        <div class="company-img">
+            <img src="./images/company/1 1.svg" alt="logo" class="company-logo">
+            <p class="company-txt">Мы помогаем клиентам подбирать решения, учитывая пожежелания к 
+                характеристикам окна и его стоимости. Окно - это объект, которым
+             Вы будете пользоваться много лет, поэтому для нас очень важно, чтобы
+              Вы сделали правильный выбор.</p>
+            <img src="./images/company/Rectangle 36.svg" alt="okno">
+        </div>
+        <br>
+
+    -->    
+         <div class="specificator">
+            <div class="specificator-item">
+                <div class="specificator-item__img">
+                    <img src="./images/company/prof.svg" alt="prof">
+                </div>
+                <div class="specificator-item__txt">
+                    <h3> Профессионализм</h3>
+                    <br>
+                    <p> Бригада профессиональных
+                        мастеров по монтажу 
+                        и обслуживанию</p>
+                </div> 
+            </div>
+
+            <div class="specificator-item">
+              <div class="specificator-item__img">
+                <img src="./images/company/tsena.svg" alt="tsena">
+              </div>
+                <div class="specificator-item__txt">
+                    <h3> Ценообразование</h3> <br>
+                    <p> Бригада профессиональных
+                        мастеров по монтажу 
+                        и обслуживанию</p>
+                </div> 
+            </div>
+
+            <div class="specificator-item">
+              <div class="specificator-item__img">
+                <img src="./images/company/dogov.svg" alt="">
+              </div>
+                <div class="specificator-item__txt">
+                    <b> Мобильность</b> <br>
+                    <p> Заключение договора 
+                        на дому</p>
+                </div> 
+            </div>
+
+            <div class="specificator-item">
+              <div class="specificator-item__img">
+                <img src="./images/company/loyal.svg" alt="">
+              </div>
+                <div class="specificator-item__txt">
+                    <h3> Лояльность</h3> <br>
+                    <p> Бригада профессиональных
+                        мастеров по монтажу 
+                        и обслуживанию</p>
+                </div> 
+            </div>
+
+            <div class="specificator-item">
+              <div class="specificator-item__img">
+                <img src="./images/company/skoros.svg" alt="">
+              </div>
+                <div class="specificator-item__txt">
+                    <h3> Скорость</h3> <br>
+                    <p> Короткие сроки 
+                        установки изделий</p>
+                </div> 
+            </div>
+
+            <div class="specificator-item">
+              <div class="specificator-item__img">
+                <img src="./images/company/sluKa.svg" alt="">
+              </div>
+                <div class="specificator-item__txt">
+                    <h3> Служба качества</h3> <br>
+                    <p> Служба качества
+                        Безупречное качество
+                        и контроль изделий ПВХ </p>
+                </div> 
+            </div>
+            
+         </div>
+
+
+        
+       <!-- <div class="company-specification">
+         <div class="specification_box1">
+            <img src="./images/company/prof.svg" alt="prof">
+         </div>
+         <div class="specification_box2">
+            <b> профессионализм</b>
+
+            <p> Бригада профессиональных
+                мастеров по монтажу 
+                и обслуживанию</p>
+         </div>
+         <div class="specification_box1">
+            <img src="./images/company/tsena.svg" alt="">
+         </div>
+         <div class="specification_box2">
+            <p>Ценообразование
+                Лучшие цены на рынке 
+                пластиковых окон</p>
+         </div>
+         <div class="specification_box1">
+            <img src="./images/company/dogov.svg" alt="">
+         </div>
+         <div class="specification_box2">
+            <p>Мобильность 
+                Заключение договора 
+                на дому</p>
+         </div>
+         <div class="specification_box1">
+            <img src="./images/company/loyal.svg" alt="">
+         </div>
+         <div class="specification_box2">
+            <p>Лояльность
+                99% клиентов рекомендуют 
+                нас своим друзьям</p>
+         </div>
+         <div class="specification_box1">
+            <img src="./images/company/skoros.svg" alt="">
+         </div>
+         <div class="specification_box2">Скорость
+            Короткие сроки 
+            установки изделий</div>
+         <div class="specification_box1">
+            <img src="./images/company/sluKa.svg" alt="">
+         </div>
+         <div class="specification_box2">
+            <p>Служба качества
+                Безупречное качество
+                и контроль изделий ПВХ</p>
+         </div>
+        </div> -->
+
+        <div class="btn-zamer">
+            <button class="btn-item btn-item-orange">
+                <img class="img" src="./images/header/icon1.svg" alt="zamer">
+                Оформить заявку на замер
+            </button>
+
+
+     
+    </section>
+
+
+  
   </body>
 </html>
