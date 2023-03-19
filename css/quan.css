@@ -1,0 +1,43 @@
+.quan {
+    background-color: #EF7F1A;
+    ;
+}
+
+.quanzag{
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 10px;
+    padding: 20px;
+}
+
+.quanwind {
+    display: grid;
+   align-content:center ;
+   margin: 40px;
+   padding: 20px;
+   margin-top: -20px;
+}
+
+.quanwind_open {
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    color: #2F2F51;
+}
+.quan-strel {
+   margin: 0 0 0 95%;
+
+}
+
+.quanwind_open:hover {
+    opacity: 0.5;
+    background-color: cornflowerblue;
+}
+
+.quan-strel:hover {
+    opacity: 0.5;
+
+}
+

@@ -12,8 +12,10 @@ body {
 }
 
 .container{
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
+    max-width: 1200px;
+    
 }
 
 .title{
@@ -21,4 +23,21 @@ body {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+}
+
+@media (max-width: 992px) {
+    .blocks {
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: 100% !important;
+    }
+    .ppo-zamer {
+        display: none;
+    }
+
+    .img_port_med{
+        display: none;
+        
+    }
+
 }

@@ -1,0 +1,19 @@
+.portfolio {
+    margin: 30px;
+}
+
+.zag-port {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.port-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_port:hover {
+    opacity: 0.5;
+}
