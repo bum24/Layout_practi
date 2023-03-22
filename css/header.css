@@ -1,4 +1,114 @@
-.header-wrapper{
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family     : 'Roboto', sans-serif;
+    margin          : 0;
+    padding         : 0;
+    background-color: #FEFEFE;
+}
+
+.container {
+    width : 1202px;
+    margin: 0 auto;
+}
+
+.header {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    align-items    : center;
+    height         : 89px;
+}
+
+.header-logo {
+    display: flex;
+    margin: 0 10% 0 0 ;
+}
+
+.logo {
+    width : 80px;
+    height: 63px;
+}
+
+.logo_large {
+    width      : 197px;
+    height     : 140px;
+    margin-top : 46px;
+    margin-left: 50px;
+}
+
+.header-menu__nav {
+    display       : flex;
+    flex-direction: row;
+    gap           : 25px;
+}
+
+.header-menu__link {
+    display        : inline-block;
+    padding-top    : 37px;
+    height         : 89px;
+    text-decoration: none;
+    font-weight    : 400;
+    font-size      : 15px;
+    line-height    : 19px;
+    color          : #000000;
+}
+
+.header-menu__link:hover {
+    color     : #EF7F04;
+    box-shadow: 0 4px 0 #EF7F04 inset;
+}
+
+.header-btn {
+    display: flex;
+    margin: 0 0 0 15%;
+}
+
+.btn__margin-right {
+    margin-right: 15px;
+}
+
+.btn {
+    width           : 150px;
+    height          : 35px;
+    background-color: #EF7F04;
+    border-radius   : 3px;
+    color           : #FFFFFF;
+    font-weight     : 700;
+    font-size       : 12px;
+    line-height     : 15px;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-around;
+    align-items     : center;
+    border          : none;
+    outline         : none;
+    padding         : 12px;
+}
+
+.btn:hover {
+    background-color: #EF7F04;
+    cursor          : pointer;
+}
+
+.btn_large {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    padding       : 10px;
+    width         : 312px;
+    height        : 55px;
+    font-weight   : 700;
+    font-size     : 16px;
+    line-height   : 19px;
+    margin-bottom : 87px;
+}
+
+/*.header-wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,3 +150,4 @@
 .img{
     margin-right: 12px;
 }
+ */

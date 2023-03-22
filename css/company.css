@@ -80,6 +80,8 @@ background-color: blue;
     width: 1200px;
     margin: auto;
 }
+
+
  .specificator-item {
     width: 400px;
     display: flex;
@@ -99,7 +101,12 @@ background-color: blue;
     text-align: center;
     margin-left: 450px;
     margin-right: 250px; 
- }
+   
+}
+
+.btn-item-orange{
+    background-color: #EF7F04;
+}
 
 /*
  .h3 {
