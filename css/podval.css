@@ -1,0 +1,29 @@
+.podval {
+    background-color:  #2F2F51;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 0;
+    
+}
+
+.txt-pod {
+    color:#FFFFFF ;
+    font-size: 14px;
+    margin: auto;
+
+}
+
+.pod-left{
+    display: flex;
+    gap: 0 25px;
+    margin: 20px;
+}
+
+.pod-right {
+    margin: 0 5% 0 20%;
+}
+
+.img-pod{
+    margin-left: auto ;
+}
